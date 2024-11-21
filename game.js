@@ -68,7 +68,7 @@ function wrong() {
   userClickedPattern = [];
   level = 0;
 }
-$("body").click(function () {
+$(document).click(function () {
   if (!started) {
     started = true;
     nextSequence();
