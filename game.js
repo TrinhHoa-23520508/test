@@ -63,7 +63,7 @@ function wrong() {
   animateWrong();
   playSound("wrong");
   started = false;
-  $("h1").text("Game Over, Press Any Key to Restart");
+  $("h1").text("Game Over, Press Any Key or click me to Restart");
   gamePattern = [];
   userClickedPattern = [];
   level = 0;
